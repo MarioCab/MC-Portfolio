@@ -1,0 +1,34 @@
+* {
+    margin: 0px;
+    padding: 0px;  
+    flex-wrap: wrap;
+}
+
+
+.AboutMe {
+    column-count: 2;
+    column-width: 250px;
+    column-gap: 10px;
+    margin: 1px;
+    padding: 1px;
+   
+}
+
+#Comfy {
+display: block;
+block-size: 650px;
+border-radius: 10px;
+
+}
+
+.AboutMe h1, p {
+    text-align: center;
+    margin-right: 200px;
+}
+
+ 
+    
+
+
+
+
