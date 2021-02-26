@@ -1,36 +1,54 @@
-* {
-    margin: 0px;
-    padding: 0px;  
-    flex-wrap: wrap;
+body {
     background-image: url(/Assets/Images/cyber-glow-1162017.jpg);
+    font-family: 'Rajdhani', sans-serif;
+    font-family: 'Zilla Slab', serif;
 }
 
 section {
-    background-color: honeydew;
+     background-color: darkcyan;
+     margin: 50px;
+     padding: 10px;
+     border-radius: 40px;
+     column-count: 2;
+     column-width: 50%;
+     column-gap: 50px;
+    
 }
 
-
-.AboutMe {
-    column-count: 2;
-    column-width: 250px;
-    column-gap: 10px;
-    margin: 1px;
-    padding: 1px;
-   
+.Projects {
+    
 }
 
-#Comfy {
+img {
 display: block;
 block-size: 650px;
-border-radius: 10px;
+border-radius: 40px;
 
+}
+
+.AboutMeImg {
+    float: left;
+}
+
+.ProjectImg {
+    float: right;
+    margin-left: auto;
 }
 
 h1, p {
     text-align: center;
     margin-right: 200px;
+
 }
 
+h1 {
+    font-size: 75px;
+    font-weight: bold;
+}
+
+p {
+    font-size: 20px;
+}
  
     
 
