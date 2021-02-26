@@ -1,44 +1,62 @@
+/* OVERALL */
+
 body {
-    background-image: url(/Assets/Images/cyber-glow-1162017.jpg);
-    font-family: 'Rajdhani', sans-serif;
     font-family: 'Zilla Slab', serif;
+    color: cornsilk;
 }
+
+
+/* SECTIONS */
+
 
 section {
-     background-color: darkcyan;
-     margin: 50px;
-     padding: 10px;
-     border-radius: 40px;
-     column-count: 2;
-     column-width: 50%;
-     column-gap: 50px;
-    
+    background-color:#212529; 
+    margin: 50px; 
+    padding: 15px;
+    border-radius: 40px;
 }
 
-.Projects {
-    
+.AboutMePg {
+    display: flex;
+    align-content: center;
+    column-count: 2;
+    column-width: 50%;
 }
 
-img {
-display: block;
-block-size: 650px;
-border-radius: 40px;
-
-}
-
-.AboutMeImg {
+.AboutMeSec1 {
     float: left;
 }
 
-.ProjectImg {
+.AboutMeSec2 {
     float: right;
-    margin-left: auto;
 }
 
-h1, p {
-    text-align: center;
-    margin-right: 200px;
+.ProjLinks {
+    display: inline-block;
+}
+/* IMAGES */
 
+
+img {         
+    block-size: 650px;
+    border-radius: 40px;
+}
+
+#AboutMeImg {
+    float: left;
+}
+
+.WizardFrogLogo {
+    background-image: url(/Assets/Images/Wizardfrog-icon.png);
+    display: block;
+    margin: auto;
+}
+
+/* TEXT */
+
+
+h1, p {
+    text-align: center;  
 }
 
 h1 {
@@ -50,8 +68,5 @@ p {
     font-size: 20px;
 }
  
-    
-
-
 
 
