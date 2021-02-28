@@ -14,42 +14,69 @@ section {
     margin: 50px; 
     padding: 15px;
     border-radius: 40px;
+    border: solid black;
 }
 
-.AboutMePg {
+#AboutMePg {
     display: flex;
     align-content: center;
     column-count: 2;
     column-width: 50%;
+    column-gap: 5%;
+
 }
 
-.AboutMeSec1 {
-    float: left;
+
+#ProjectsPg {
+    display: flex;
+    flex-direction: column;
+    column-count: 1;
 }
 
-.AboutMeSec2 {
-    float: right;
+
+.ProjLinks a {
+    display: none;
+    font-size: 0px;
 }
 
-.ProjLinks {
-    display: inline-block;
+#ContactPg {
+    scroll-behavior: smooth;
+}
+
+.ContactInfo {
+    column-count: 2;
+    column-gap: 15px;
+    display: flex;
+    align-content: center;
+    margin-left: 100px;
+}
+
+.ContactInfo p {
+    font-size: 30px;
 }
 /* IMAGES */
 
 
 img {         
-    block-size: 650px;
     border-radius: 40px;
 }
 
 #AboutMeImg {
     float: left;
+    max-width: 100%;
 }
 
-.WizardFrogLogo {
+#WizardFrogLogo {
     background-image: url(/Assets/Images/Wizardfrog-icon.png);
-    display: block;
-    margin: auto;
+    display: flex;
+    block-size: 400px;
+    max-width: 60%;
+    margin-left: 175px;  
+    border: 2px solid black;
+}
+
+#WizardFrogLogo:hover {
+border-color: rgb(247, 211, 70);
 }
 
 /* TEXT */
@@ -67,6 +94,6 @@ h1 {
 p {
     font-size: 20px;
 }
- 
+
 
 
