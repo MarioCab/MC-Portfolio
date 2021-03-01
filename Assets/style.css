@@ -1,99 +1,42 @@
-/* OVERALL */
-
 body {
     font-family: 'Zilla Slab', serif;
-    color: cornsilk;
 }
 
-
-/* SECTIONS */
-
-
-section {
-    background-color:#212529; 
-    margin: 50px; 
-    padding: 15px;
-    border-radius: 40px;
-    border: solid black;
-}
-
-#AboutMePg {
+main {
     display: flex;
-    align-content: center;
-    column-count: 2;
-    column-width: 50%;
-    column-gap: 5%;
-
+    flex-flow: row wrap;
+    text-align: center;
 }
 
-
-#ProjectsPg {
-    display: flex;
-    flex-direction: column;
-    column-count: 1;
+main>*{
+padding: 5px;
+margin: 5px;
+flex: 1 100%;
+border-radius: 10px;
 }
 
-
-.ProjLinks a {
-    display: none;
-    font-size: 0px;
+#AboutMePg #ProjectsPg #ContactPg {
+    width: 100%;
+    height: auto;
 }
 
-#ContactPg {
-    scroll-behavior: smooth;
+#AboutMePg h1 p {
+float: right;
 }
 
-.ContactInfo {
-    column-count: 2;
-    column-gap: 15px;
-    display: flex;
-    align-content: center;
-    margin-left: 100px;
-}
-
-.ContactInfo p {
-    font-size: 30px;
-}
-/* IMAGES */
-
-
-img {         
-    border-radius: 40px;
-}
-
-#AboutMeImg {
+#AboutMeImg{
+    width: 20%;
+    height: auto;
     float: left;
-    max-width: 100%;
 }
 
-#WizardFrogLogo {
-    background-image: url(Assets/Images/Wizardfrog-icon.png);
+#wfgamelink {
+    width: 20%;
+    height: auto;
+    float: inherit;
+}
+
+.projects {
     display: flex;
-    block-size: 400px;
-    max-width: 60%;
-    margin-left: 175px;  
-    border: 2px solid black;
+    flex-flow: column;
 }
-
-#WizardFrogLogo:hover {
-border-color: rgb(247, 211, 70);
-}
-
-/* TEXT */
-
-
-h1, p {
-    text-align: center;  
-}
-
-h1 {
-    font-size: 75px;
-    font-weight: bold;
-}
-
-p {
-    font-size: 20px;
-}
-
-
-
