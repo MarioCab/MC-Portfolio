@@ -67,7 +67,7 @@ img {
 }
 
 #WizardFrogLogo {
-    background-image: url(/Assets/Images/Wizardfrog-icon.png);
+    background-image: url(Assets/Images/Wizardfrog-icon.png);
     display: flex;
     block-size: 400px;
     max-width: 60%;
