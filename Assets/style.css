@@ -43,7 +43,7 @@ float: right;
     margin: 20px;
 }
 
-#wfgamelink {
+#wfgamelink, #qolLink {
     width: 50%;
     height: auto;
     margin-left: 25%;
@@ -59,7 +59,7 @@ float: right;
     border: solid black 10px;
 }
 
-#wfgamelink:hover {
+#wfgamelink:hover, #qolLink:hover {
 border: gold solid 10px;
 }
 
