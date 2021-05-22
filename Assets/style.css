@@ -8,6 +8,19 @@ h1 {
   font-size: 40px;
 }
 
+.col {
+  padding: 1%;
+}
+
+.card-img-top {
+  border: 1px black solid;
+}
+
+.card-text,
+.list-group-item {
+  color: black;
+}
+
 p {
   font-size: 15px;
 }
