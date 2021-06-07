@@ -87,3 +87,8 @@ main > * {
   display: inline;
   text-align: center;
 }
+
+h5 {
+  color: black;
+  font-weight: bold;
+}
